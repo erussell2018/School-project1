@@ -1,0 +1,103 @@
+form{
+    position: absolute;
+}
+.status{
+    margin-left:10px;
+    margin-top:40px;
+    font-weight:bold;
+    position:absolute;
+}
+#line1{
+  margin-top:63px;
+  position:absolute;
+}
+#colum3{
+  margin-top:320px;
+}
+#colum3part2{
+  margin-top:345px;
+ }
+.colum3{
+  position:absolute;
+  font-weight:bold;
+  margin-left:150px;
+}
+#line2{
+  margin-top:300px;
+  position:absolute;
+}
+.description{
+  margin-top:420px;/*blaze it*/
+  position:absolute;
+}
+#description{
+  margin-top:305px;
+  margin-left:8px;
+}
+#techteamdesc{
+ margin-top:300px;
+  margin-left:8px;
+}
+#textboxdescription{
+margin-top:50;
+   
+}
+#solidline2/*this line is the 3rd line, solid*/{
+  margin-top:405px;
+  position:absolute;
+}
+.email-button{
+margin-left:240px;
+}
+body{
+  background: rgba(255,255,255,1);
+background: -moz-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(157,225,246,1) 97%, rgba(157,225,246,1) 100%);
+background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(97%, rgba(157,225,246,1)), color-stop(100%, rgba(157,225,246,1)));
+background: -webkit-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(157,225,246,1) 97%, rgba(157,225,246,1) 100%);
+background: -o-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(157,225,246,1) 97%, rgba(157,225,246,1) 100%);
+background: -ms-linear-gradient(-45deg, rgba(255,255,255,1) 0%, rgba(157,225,246,1) 97%, rgba(157,225,246,1) 100%);
+background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgba(157,225,246,1) 97%, rgba(157,225,246,1) 100%);
+
+margin-left: 300px;
+}
+.dropbtn {
+    background-color: steelblue;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-left: 150px;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 999
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    margin-left: 150px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: steelblue;
+}
